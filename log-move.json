@@ -1,0 +1,7014 @@
+
+> sphero-server@1.0.0 start /Users/hrl7/Projects/SpheroServer
+> node main.js
+
+
+> sphero-server@1.0.0 start /Users/hrl7/Projects/SpheroServer
+> node main.js
+
+{ desc: 'Collision detected',
+  idCode: 7,
+  event: 'collision',
+  did: 2,
+  cid: 18,
+  packet: 
+   { sop1: 255,
+     sop2: 254,
+     idCode: 7,
+     dlenMsb: 0,
+     dlenLsb: 17,
+     dlen: 17,
+     data: <Buffer 00 59 fa cf 00 00 02 00 12 00 51 1f 00 0e a4 a0>,
+     checksum: 239 },
+  x: 89,
+  y: 64207,
+  z: 0,
+  axis: 2,
+  xMagnitude: 18,
+  yMagnitude: 81,
+  speed: 31,
+  timestamp: 959648,
+  __timestamp: 72,
+  __type: 'collision' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 87 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 160 ] },
+  __timestamp: 247,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 652 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1062 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 511 ] },
+  __timestamp: 250,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1837 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -1608 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 5135 ] },
+  __timestamp: 250,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 9 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -1 ] },
+  __timestamp: 251,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 138 ] },
+  __timestamp: 252,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -32 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 332 ] },
+  __timestamp: 252,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -2 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 16 ] },
+  __timestamp: 253,
+  __type: 'odometer' }
+{ desc: 'Collision detected',
+  idCode: 7,
+  event: 'collision',
+  did: 2,
+  cid: 18,
+  packet: 
+   { sop1: 255,
+     sop2: 254,
+     idCode: 7,
+     dlenMsb: 0,
+     dlenLsb: 17,
+     dlen: 17,
+     data: <Buffer fd 64 06 53 00 00 02 00 09 00 43 00 00 0e a6 83>,
+     checksum: 168 },
+  x: 64868,
+  y: 1619,
+  z: 0,
+  axis: 2,
+  xMagnitude: 9,
+  yMagnitude: 67,
+  speed: 0,
+  timestamp: 960131,
+  __timestamp: 579,
+  __type: 'collision' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -421 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 792 ] },
+  __timestamp: 687,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2852 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 51 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 9298 ] },
+  __timestamp: 688,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -4223 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 9014 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 213 ] },
+  __timestamp: 688,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -108 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -17 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -96 ] },
+  __timestamp: 689,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 243 ] },
+  __timestamp: 689,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 255 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 1050 ] },
+  __timestamp: 690,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -13 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 32 ] },
+  __timestamp: 690,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ undefined ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ undefined ] },
+  __timestamp: 1095,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ undefined ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ undefined ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ undefined ] },
+  __timestamp: 1097,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ undefined ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ undefined ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ undefined ] },
+  __timestamp: 1098,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -65045 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -65262 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ undefined ] },
+  __timestamp: 1101,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ undefined ] },
+  __timestamp: 1101,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  __timestamp: 1102,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ undefined ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ undefined ] },
+  __timestamp: 1102,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ undefined ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ undefined ] },
+  __timestamp: 1813,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 116 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -34 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ undefined ] },
+  __timestamp: 1823,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 821 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 5394 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 467 ] },
+  __timestamp: 1825,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -4063 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -908 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -62493 ] },
+  __timestamp: 1826,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ undefined ] },
+  __timestamp: 1827,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  __timestamp: 1827,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ undefined ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ undefined ] },
+  __timestamp: 1828,
+  __type: 'odometer' }
+{ desc: 'Collision detected',
+  idCode: 7,
+  event: 'collision',
+  did: 2,
+  cid: 18,
+  packet: 
+   { sop1: 255,
+     sop2: 254,
+     idCode: 7,
+     dlenMsb: 0,
+     dlenLsb: 17,
+     dlen: 17,
+     data: <Buffer f8 11 01 62 00 00 01 00 43 00 16 00 00 0e ab 87>,
+     checksum: 225 },
+  x: 63505,
+  y: 354,
+  z: 0,
+  axis: 1,
+  xMagnitude: 67,
+  yMagnitude: 22,
+  speed: 0,
+  timestamp: 961415,
+  __timestamp: 2070,
+  __type: 'collision' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 78 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 152 ] },
+  __timestamp: 2575,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1694 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -188 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1076 ] },
+  __timestamp: 2576,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 631 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3337 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 2936 ] },
+  __timestamp: 2576,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -61 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 16 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -3 ] },
+  __timestamp: 2577,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ undefined ] },
+  __timestamp: 2577,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  __timestamp: 2577,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ undefined ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ undefined ] },
+  __timestamp: 2578,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -103 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -163 ] },
+  __timestamp: 2580,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 7774 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 5973 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 373 ] },
+  __timestamp: 2580,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -4777 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -2294 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -8317 ] },
+  __timestamp: 2581,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 130 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -23 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -78 ] },
+  __timestamp: 2581,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ undefined ] },
+  __timestamp: 2582,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ undefined ] },
+  __timestamp: 2582,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 240 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ undefined ] },
+  __timestamp: 2582,
+  __type: 'odometer' }
+{ desc: 'Collision detected',
+  idCode: 7,
+  event: 'collision',
+  did: 2,
+  cid: 18,
+  packet: 
+   { sop1: 255,
+     sop2: 254,
+     idCode: 7,
+     dlenMsb: 0,
+     dlenLsb: 17,
+     dlen: 17,
+     data: <Buffer 06 66 02 1b 00 00 01 00 49 00 27 00 00 0e ae d7>,
+     checksum: 90 },
+  x: 1638,
+  y: 539,
+  z: 0,
+  axis: 1,
+  xMagnitude: 73,
+  yMagnitude: 39,
+  speed: 0,
+  timestamp: 962263,
+  __timestamp: 2822,
+  __type: 'collision' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 26 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -114 ] },
+  __timestamp: 3594,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 932 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -331 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1196 ] },
+  __timestamp: 3595,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 231 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -1181 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3580 ] },
+  __timestamp: 3595,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 23 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -3 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 9 ] },
+  __timestamp: 3595,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 92 ] },
+  __timestamp: 3595,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -9 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -127 ] },
+  __timestamp: 3596,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -50 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 81 ] },
+  __timestamp: 3596,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -36 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 210 ] },
+  __timestamp: 4094,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1820 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 994 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 720 ] },
+  __timestamp: 4094,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1694 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1978 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 2989 ] },
+  __timestamp: 4095,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -30 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 23 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -4 ] },
+  __timestamp: 4099,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 96 ] },
+  __timestamp: 4099,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -96 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 320 ] },
+  __timestamp: 4099,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -51 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 87 ] },
+  __timestamp: 4099,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -36 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 119 ] },
+  __timestamp: 4459,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 3412 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -3789 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1531 ] },
+  __timestamp: 4460,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 2839 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3733 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3919 ] },
+  __timestamp: 4461,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -36 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 24 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  __timestamp: 4461,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 149 ] },
+  __timestamp: 4462,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 147 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 97 ] },
+  __timestamp: 4462,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -50 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 76 ] },
+  __timestamp: 4463,
+  __type: 'odometer' }
+{ desc: 'Collision detected',
+  idCode: 7,
+  event: 'collision',
+  did: 2,
+  cid: 18,
+  packet: 
+   { sop1: 255,
+     sop2: 254,
+     idCode: 7,
+     dlenMsb: 0,
+     dlenLsb: 17,
+     dlen: 17,
+     data: <Buffer 04 2a fd 0a 00 00 01 00 42 00 0e 00 00 0e b5 cf>,
+     checksum: 207 },
+  x: 1066,
+  y: 64778,
+  z: 0,
+  axis: 1,
+  xMagnitude: 66,
+  yMagnitude: 14,
+  speed: 0,
+  timestamp: 964047,
+  __timestamp: 4592,
+  __type: 'collision' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -82 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 286 ] },
+  __timestamp: 4593,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2463 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -3035 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1717 ] },
+  __timestamp: 4593,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 155 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3921 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 380 ] },
+  __timestamp: 4593,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -42 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 24 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -15 ] },
+  __timestamp: 4594,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 96 ] },
+  __timestamp: 4594,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 85 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 342 ] },
+  __timestamp: 4594,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -50 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 78 ] },
+  __timestamp: 4595,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -228 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 182 ] },
+  __timestamp: 5082,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -4409 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2598 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 6706 ] },
+  __timestamp: 5082,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 2693 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 6259 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -1523 ] },
+  __timestamp: 5082,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 1 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 52 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 3 ] },
+  __timestamp: 5083,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 170 ] },
+  __timestamp: 5083,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -173 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 258 ] },
+  __timestamp: 5083,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -52 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 86 ] },
+  __timestamp: 5083,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -33 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -82 ] },
+  __timestamp: 5593,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -42 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 81 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 378 ] },
+  __timestamp: 5593,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1644 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1207 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 4800 ] },
+  __timestamp: 5594,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 41 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 3 ] },
+  __timestamp: 5594,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 127 ] },
+  __timestamp: 5595,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -4 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -147 ] },
+  __timestamp: 5595,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -52 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 75 ] },
+  __timestamp: 5595,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -26 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -16 ] },
+  __timestamp: 6088,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 740 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 191 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 150 ] },
+  __timestamp: 6088,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3636 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 194 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 2963 ] },
+  __timestamp: 6089,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 12 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 33 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 3 ] },
+  __timestamp: 6089,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 114 ] },
+  __timestamp: 6089,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -4 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -54 ] },
+  __timestamp: 6089,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -52 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 71 ] },
+  __timestamp: 6090,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -15 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -12 ] },
+  __timestamp: 6589,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 148 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 3285 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 884 ] },
+  __timestamp: 6589,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -5008 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -2804 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 12509 ] },
+  __timestamp: 6590,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -15 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 0 ] },
+  __timestamp: 6590,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 336 ] },
+  __timestamp: 6590,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -200 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -47 ] },
+  __timestamp: 6590,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -56 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 69 ] },
+  __timestamp: 6590,
+  __type: 'odometer' }
+{ desc: 'Collision detected',
+  idCode: 7,
+  event: 'collision',
+  did: 2,
+  cid: 18,
+  packet: 
+   { sop1: 255,
+     sop2: 254,
+     idCode: 7,
+     dlenMsb: 0,
+     dlenLsb: 17,
+     dlen: 17,
+     data: <Buffer 0a a4 ff 62 00 00 01 00 41 00 09 00 00 0e be 75>,
+     checksum: 76 },
+  x: 2724,
+  y: 65378,
+  z: 0,
+  axis: 1,
+  xMagnitude: 65,
+  yMagnitude: 9,
+  speed: 0,
+  timestamp: 966261,
+  __timestamp: 6674,
+  __type: 'collision' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -630 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 107 ] },
+  __timestamp: 7087,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2840 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1455 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2568 ] },
+  __timestamp: 7088,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1630 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -348 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -1244 ] },
+  __timestamp: 7088,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 95 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -33 ] },
+  __timestamp: 7089,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 50 ] },
+  __timestamp: 7089,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -309 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -855 ] },
+  __timestamp: 7089,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -75 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 41 ] },
+  __timestamp: 7089,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -370 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -162 ] },
+  __timestamp: 7586,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 3609 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 638 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 639 ] },
+  __timestamp: 7587,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -13697 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 412 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 6154 ] },
+  __timestamp: 7587,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 33 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -67 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -17 ] },
+  __timestamp: 7588,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 366 ] },
+  __timestamp: 7588,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -305 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -298 ] },
+  __timestamp: 7588,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -81 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ 19 ] },
+  __timestamp: 7588,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -317 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -130 ] },
+  __timestamp: 8090,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2136 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -90 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 238 ] },
+  __timestamp: 8091,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1140 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 788 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1117 ] },
+  __timestamp: 8091,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 28 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -50 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -13 ] },
+  __timestamp: 8091,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 43 ] },
+  __timestamp: 8092,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -181 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -463 ] },
+  __timestamp: 8092,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -82 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -3 ] },
+  __timestamp: 8092,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -178 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -21 ] },
+  __timestamp: 8591,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 812 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -875 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 195 ] },
+  __timestamp: 8592,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 2333 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ -1518 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 4285 ] },
+  __timestamp: 8592,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 26 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 0 ] },
+  __timestamp: 8593,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 124 ] },
+  __timestamp: 8593,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 133 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -214 ] },
+  __timestamp: 8594,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -79 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -22 ] },
+  __timestamp: 8594,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -79 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -39 ] },
+  __timestamp: 9091,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 226 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 47 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 11 ] },
+  __timestamp: 9091,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1527 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 988 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3858 ] },
+  __timestamp: 9091,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -8 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 6 ] },
+  __timestamp: 9092,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 104 ] },
+  __timestamp: 9092,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 1 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -139 ] },
+  __timestamp: 9092,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -78 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -30 ] },
+  __timestamp: 9092,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 9598,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -5 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 9598,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1515 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 630 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3727 ] },
+  __timestamp: 9598,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -8 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 5 ] },
+  __timestamp: 9599,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 9599,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 9599,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -78 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 9599,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 10078,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 10078,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1515 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 613 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3743 ] },
+  __timestamp: 10079,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -8 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 5 ] },
+  __timestamp: 10079,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 10079,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 10079,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -78 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 10080,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 3 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 10609,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 10609,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1515 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 630 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3695 ] },
+  __timestamp: 10610,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -8 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 5 ] },
+  __timestamp: 10610,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 98 ] },
+  __timestamp: 10610,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 3 ] },
+  __timestamp: 10611,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -78 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 10611,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ -3 ] },
+  __timestamp: 11107,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 11 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 8 ] },
+  __timestamp: 11107,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 646 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3759 ] },
+  __timestamp: 11108,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -8 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 4 ] },
+  __timestamp: 11108,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 11109,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ -4 ] },
+  __timestamp: 11109,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 11109,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 11585,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 11586,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1515 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 630 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3711 ] },
+  __timestamp: 11586,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 4 ] },
+  __timestamp: 11587,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 11587,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 11587,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 11587,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 2 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 12103,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 20 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 9 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 12103,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1515 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3712 ] },
+  __timestamp: 12103,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 22 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 3 ] },
+  __timestamp: 12103,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 12104,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 1 ] },
+  __timestamp: 12104,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 12104,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 12609,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -9 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -11 ] },
+  __timestamp: 12609,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3728 ] },
+  __timestamp: 12610,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 3 ] },
+  __timestamp: 12610,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 12611,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 12611,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 12611,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 13089,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 13090,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 13090,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 13090,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 13090,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 13091,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 13091,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 13604,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 13605,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3743 ] },
+  __timestamp: 13605,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 13606,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 13607,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 13607,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 13607,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 14110,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 14111,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 14111,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 14111,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 14112,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 14112,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 14112,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 14593,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 14593,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 14593,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 14594,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 14594,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 14594,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 14595,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 15096,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 15097,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 15097,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 15097,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 15098,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 15098,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 15098,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 15587,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 3 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 15588,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 15588,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 15588,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 15589,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 15589,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 15589,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 16091,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 16092,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1515 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3727 ] },
+  __timestamp: 16092,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 16092,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 16093,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 16093,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 16093,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 16605,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 16605,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1466 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3728 ] },
+  __timestamp: 16606,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 16606,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 16606,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 16606,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 16606,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 17092,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 17093,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3728 ] },
+  __timestamp: 17093,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 17093,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 17094,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 17094,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 17094,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 17606,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 17606,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3728 ] },
+  __timestamp: 17607,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 17607,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 17607,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 17608,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 17608,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 18107,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 18108,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1481 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 711 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3776 ] },
+  __timestamp: 18108,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 18108,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 18108,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 18109,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 18109,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 18589,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 18589,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3727 ] },
+  __timestamp: 18590,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 18590,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 18591,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 18591,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 18591,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 19094,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 19094,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 19094,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 19095,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 19095,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 19095,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 19095,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 19606,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 19607,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3776 ] },
+  __timestamp: 19607,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 19607,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 19608,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 19608,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 19608,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 20098,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 20098,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3760 ] },
+  __timestamp: 20098,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 20099,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 20099,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 20099,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 20099,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 20593,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 20593,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 20593,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 20594,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 20594,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 20594,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 20594,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 21107,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 21108,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1465 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 711 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3776 ] },
+  __timestamp: 21108,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 21109,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 21109,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 21109,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 21109,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 21603,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 21603,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3712 ] },
+  __timestamp: 21603,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 21603,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 21604,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 21604,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 21604,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 22086,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 22087,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 22087,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 22087,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 22088,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 22088,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 22088,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 22594,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 22594,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3728 ] },
+  __timestamp: 22595,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 22595,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 22595,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 22595,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 22595,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 23091,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 23092,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 23092,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 23092,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 23093,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 23094,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 23094,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 23605,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 23605,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3760 ] },
+  __timestamp: 23605,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 23606,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 23606,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 23606,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 23606,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 24087,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 24088,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 24088,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 24088,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 24089,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 24089,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 24089,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 24603,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 24603,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3776 ] },
+  __timestamp: 24603,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 24604,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 24604,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 24604,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 24604,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 25110,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 25110,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1481 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 711 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3776 ] },
+  __timestamp: 25111,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 25111,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 25111,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 25111,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 25112,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 25594,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 25594,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1481 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3776 ] },
+  __timestamp: 25594,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 25595,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 25595,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 25595,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 25595,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 26116,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 26116,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 26117,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 26117,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 26117,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 26118,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 26118,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 26600,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 26600,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3760 ] },
+  __timestamp: 26601,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 26601,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 26601,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 26601,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 26602,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 27113,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 27114,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3696 ] },
+  __timestamp: 27114,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 27114,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 98 ] },
+  __timestamp: 27114,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 27115,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 27115,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 27612,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 27614,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1514 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 27614,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 27615,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 27615,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 27616,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 27616,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 28105,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 28105,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3776 ] },
+  __timestamp: 28106,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 28106,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 100 ] },
+  __timestamp: 28107,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 28107,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 28107,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 28605,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 28606,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1466 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3712 ] },
+  __timestamp: 28606,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 28607,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 98 ] },
+  __timestamp: 28607,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 28607,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 28607,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 29108,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 29108,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1466 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 29108,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 29109,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 29109,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 29109,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 29109,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 29616,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 29617,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3743 ] },
+  __timestamp: 29617,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 29617,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 29618,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 29618,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 29618,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 30098,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 30098,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 30098,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 30099,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 30099,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 30100,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 30100,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 30594,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 30594,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 30595,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 30595,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 30595,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 30596,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 30596,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 31102,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 31103,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1498 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3743 ] },
+  __timestamp: 31103,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 31103,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 31103,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 31104,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 31104,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 31599,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 31599,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3728 ] },
+  __timestamp: 31600,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 31600,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 31600,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 31601,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 31601,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 32107,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 32108,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 32108,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 32108,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 32108,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 32108,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 32109,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 32599,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 32599,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1449 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 32599,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 32600,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 32600,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 32600,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 32600,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 33097,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 33098,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 33098,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 33099,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 33099,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 33099,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 33099,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 33605,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 33605,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1466 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 695 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3760 ] },
+  __timestamp: 33606,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 33606,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 33606,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 33607,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 33607,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 34100,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 34100,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 34101,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 34101,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 34102,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 34102,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 34102,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 34614,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 34614,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1466 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 34614,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 34615,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 34615,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 34615,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 34616,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 35129,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -2 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 35129,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 679 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 35129,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 35130,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 35130,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 35130,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 35130,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 35616,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 35617,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1482 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 712 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3696 ] },
+  __timestamp: 35617,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 35617,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 98 ] },
+  __timestamp: 35618,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 35618,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 35618,
+  __type: 'odometer' }
+{ rMotorBackEmf: 
+   { sensor: 'right motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  lMotorBackEmf: 
+   { sensor: 'left motor back EMF, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '22.5 cm',
+     value: [ 0 ] },
+  __timestamp: 36110,
+  __type: 'morotsBackEmf' }
+{ xGyro: 
+   { sensor: 'gyro axis X, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ -1 ] },
+  yGyro: 
+   { sensor: 'gyro axis Y, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  zGyro: 
+   { sensor: 'gyro axis Z, filtered',
+     range: { bottom: -20000, top: 20000 },
+     units: '0.1 dps',
+     value: [ 0 ] },
+  __timestamp: 36110,
+  __type: 'gyroscope' }
+{ xAccel: 
+   { sensor: 'accelerometer axis X, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 1465 ] },
+  yAccel: 
+   { sensor: 'accelerometer axis Y, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 728 ] },
+  zAccel: 
+   { sensor: 'accelerometer axis Z, filtered',
+     range: { bottom: -32768, top: 32767 },
+     units: '1/4096 G',
+     value: [ 3744 ] },
+  __timestamp: 36110,
+  __type: 'accelerometer' }
+{ pitchAngle: 
+   { sensor: 'IMU pitch angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ -9 ] },
+  rollAngle: 
+   { sensor: 'IMU roll angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 21 ] },
+  yawAngle: 
+   { sensor: 'IMU yaw angle, filtered',
+     range: { bottom: -179, top: 180 },
+     units: 'degrees',
+     value: [ 2 ] },
+  __timestamp: 36111,
+  __type: 'imuAngles' }
+{ accelOne: 
+   { sensor: 'acceleration one',
+     range: { bottom: 0, top: 8000 },
+     units: '1mG',
+     value: [ 99 ] },
+  __timestamp: 36111,
+  __type: 'accellOne' }
+{ xVelocity: 
+   { sensor: 'velocity X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  yVelocity: 
+   { sensor: 'velocity Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'mm/s',
+     value: [ 0 ] },
+  __timestamp: 36111,
+  __type: 'velocity' }
+{ xOdometer: 
+   { sensor: 'odomoter X',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -77 ] },
+  yOdometer: 
+   { sensor: 'odomoter Y',
+     range: { bottom: -32768, top: 32767 },
+     units: 'cm',
+     value: [ -32 ] },
+  __timestamp: 36111,
+  __type: 'odometer' }

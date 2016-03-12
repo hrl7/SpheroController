@@ -1,0 +1,19 @@
+{
+  "name": "sphero-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Kentaro Teramoto",
+  "license": "MIT",
+  "dependencies": {
+    "date-utils": "^1.2.18",
+    "express": "^4.13.4",
+    "lodash": "^4.6.1",
+    "socket.io": "^1.4.5",
+    "sphero": "^0.8.3"
+  }
+}

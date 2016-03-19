@@ -1,6 +1,7 @@
 function Log(obj){
   this.data = obj;
   this.index = Array.isArray(obj) ? 0 :  null;
+  this.lastX = 0;
 }
 
 Log.prototype.apply = function (fn){
@@ -28,9 +29,9 @@ Log.prototype.next = function(){
   }
 }
 
-Log.prototype.first = function(){
+Log.prototype.first = function(index){
   if( this.index !== null){
-    return new Log(this.data[0]);
+    return new Log(this.data[index ? index : 0]);
   } else {
     throw new Error("not iteratable");
   }

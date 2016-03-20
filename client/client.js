@@ -1,10 +1,23 @@
-var log ,data, cvs, ctx, WIDTH = 1200, HEIGHT = 1500;
+var log ,data, cvs, ctx, WIDTH = 1200, HEIGHT = 1500, socket;
 
-window.onload = function(){
-  main();
+function initSocket(){
+  var socket = io.connect();
+  socket.emit("resetTimeCount");
+  socket.on('startConnection',function(){
+    console.log("socket connected");
+  });
 }
 
-function main(){
+function initLogger(){
+
+  initSocket();
+
+  socket.on('dataSend',function(log){
+    if(data && log.hasOwnProperty("__type")){
+      data.push(log);
+    }
+  });
+
   cvs = document.querySelector('#graph');
   cvs.width = WIDTH;
   cvs.height = HEIGHT;
@@ -13,7 +26,16 @@ function main(){
 
   data = new DataSet();
   var mainGraph = new Graph(cvs,data);
-  initLogger(data);
+  data.registerFilter("accelerometer", "__type", "accelerometer");
+  data.registerFilter("odometer", "__type", "odometer");
+  data.registerFilter("velocity", "__type", "velocity");
+  data.registerFilter("imuAngles", "__type", "imuAngles");
+  data.registerFilter("gyroscope", "__type", "gyroscope");
+  data.registerFilter("motorsBackEmf", "__type", "motorsBackEmf");
+  data.registerFilter("motorsBackEmf", "__type", "morotsBackEmf");
+  data.registerFilter("collision", "__type", "collision");
+  data.registerFilter("accelOne", "__type", "accellOne");
+
   mainGraph.registerData(data, "accelerometer",  "steelblue", "/yAccel/value/0/");
   mainGraph.registerData(data, "accelerometer",  "blue", "/xAccel/value/0/");
   mainGraph.registerData(data, "accelerometer",  "dodgerblue", "/zAccel/value/0/");
@@ -26,19 +48,6 @@ function main(){
   mainGraph.registerData(data, "imuAngles",       "aquamarine", "/pitchAngle/value/0/");
   mainGraph.registerData(data, "imuAngles",       "turqoise", "/yawAngle/value/0/");
   mainGraph.registerData(data, "imuAngles",       "aqua", "/pitchAngle/value/0/");
-
-  var socket = io.connect();
-  socket.emit("resetTimeCount");
-  socket.on('startConnection',function(){
-    console.log("socket connected");
-  });
-
-  socket.on('dataSend',function(log){
-    if(data && log.hasOwnProperty("__type")){
-      data.push(log);
-    } else {
-    }
-  });
 
   data.registerAfterDataPushing(function(){
       
@@ -56,16 +65,3 @@ function main(){
     mainGraph.draw(data, "imuAngles",       "aqua", "/pitchAngle/value/0/");
   });
 }
-
-function initLogger(data){
-  data.registerFilter("accelerometer", "__type", "accelerometer");
-  data.registerFilter("odometer", "__type", "odometer");
-  data.registerFilter("velocity", "__type", "velocity");
-  data.registerFilter("imuAngles", "__type", "imuAngles");
-  data.registerFilter("gyroscope", "__type", "gyroscope");
-  data.registerFilter("motorsBackEmf", "__type", "motorsBackEmf");
-  data.registerFilter("motorsBackEmf", "__type", "morotsBackEmf");
-  data.registerFilter("collision", "__type", "collision");
-  data.registerFilter("accelOne", "__type", "accellOne");
-}
-

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="client.js"></script>
+    <script src="controller.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>window.onload=initController;</script>
+    <style> 
+      .config {
+      }
+
+      body, #terminal{
+        background-color:black;
+        color: white;
+        font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+        font-size: 14px;
+        line-height: 1.2;
+      }
+
+
+    </style>
+  </head>
+  <body >
+    <h1>Sphero controller</h1>
+    <textarea id="terminal" name="" cols="140" rows="70"></textarea>
+
+    <div class="config">
+      <input id="xt" type="range" min="0" max="255">
+      <input id="xs" type="range" min="0" max="255">
+      <input id="yt" type="range" min="0" max="255">
+      <input id="ys" type="range" min="0" max="255">
+    </div>
+    <input type="button" value="Configure">
+  </body>
+</html>
